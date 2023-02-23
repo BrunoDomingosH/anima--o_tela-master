@@ -53,6 +53,21 @@
             font-size: 50px;
             
         }
+        .carregamento{
+            width: 20px;
+            position: absolute;
+            height: 20px;
+            border-radius: 50%;
+            background-color: transparent;
+            border: 8px solid rgb(255, 221, 0);
+            border-top: 8px solid transparent;
+            animation: loading 1s infinite linear;
+            top: 520px;
+        }
+        @keyframes loading{
+            0%{rotate: 0deg;}
+            100%{rotate: 360deg;}
+        }
      
             
     </style>
@@ -65,8 +80,8 @@
             
     </div>
         
-        <div class="pontinho">
-            ...
+        <div class="carregamento">
+            
         </div>
 </body>
 </html>
